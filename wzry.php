@@ -99,7 +99,7 @@
     }        
 </script>
 <br> 
-<input type="button" value="点击复制给客服" onclick="Copy()" class="comments-area">
+<p class="form-submit" class="comments-area"><input type="button" value="点击复制给客服" onclick="Copy()" ></p>
 <form action="?action=submit" method="post" class="comments-area">
   <h3><img src="images/comment1.png" title="comment" />区服系统选项</h3>
   <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
