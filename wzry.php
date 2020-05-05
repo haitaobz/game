@@ -43,7 +43,7 @@
 			<div class="single-page">
 				<div class="blog-content1">
 					<div class="b-content-header">
-						<h3><a href="#">录入信息后点击提交</a></h3>
+						<h3><a href="#">褰曞叆淇℃伅鍚庤鐐瑰嚮鎻愪氦</a></h3>
 						<ul>
 			    			<li><a href="#"><img src="images/cal.png" alt="">February 21, 2013</a></li>
 			    			<li><a href="#"><img src="images/admin.png" alt="">Admin</a></li>
