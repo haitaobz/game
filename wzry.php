@@ -52,7 +52,7 @@
 		    		</div>
 		    		<div class="b-content-main">
 		    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,Sed ut perspiciatis unde omnis iste natus error sit voluptatem.<a href="#">...</a></p>
-<textarea name="copy" id="copy" cols="30" rows="16">
+<textarea name="copy" id="copy" cols="30" rows="19">
 区服系统选项:<?php echo $_POST["r1"];?>
   
 账号性别:<?php echo $_POST["r2"]; ?>
@@ -102,10 +102,10 @@
 <p class="form-submit" class="comments-area"><input type="button" value="点击复制给客服" onclick="Copy()" ></p>
 <form action="?action=submit" method="post" class="comments-area">
   <h3><img src="images/comment1.png" title="comment" />区服系统选项</h3>
-  <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
-  <dd><input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信</dd> 
-  <dd><input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ</dd> 
-  <dd><input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信</dd>
+  <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ 
+  <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信 
+  <input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ 
+  <input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信
   <h3><img src="images/comment1.png" title="comment" />账号性别</h3>
   <dd><input class="ipt" type="radio" value="男" name="r2">男</dd> 
   <dd><input class="ipt" type="radio" value="女" name="r2">女</dd>
