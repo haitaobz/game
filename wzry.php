@@ -86,8 +86,21 @@
 内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
+<input type="submit" value="提交">
+</form>
+<script>
+    function Copy() {
+        // 获取Dom节点
+       var copy = document.getElementById('copy');
+        //  用select函数将文本内容选中
+        copy.select();
+        document.execCommand('Copy');
+        alert('复制成功')
+
+    }        
+</script>
 <br> 
-<input type="button" value="点击复制给客服" onclick="Copy()">
+<input type="button" value="点击复制给客服" onclick="Copy()" class="comments-area">
 <form action="?action=submit" method="post" class="comments-area">
   <h3><img src="images/comment1.png" title="comment" />区服系统选项</h3>
   <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
@@ -114,10 +127,10 @@
   <h3><img src="images/comment1.png" title="comment" />当前段位</h3>
   <dd><label> <input class="ipt txt txt1" type="text" name="r10"><span>例：钻石4</span></label></dd> 
   <h3><img src="images/comment1.png" title="comment" />限定英雄</h3>
-  <label> <input name="r11[]" type="checkbox" value="韩信">韩信</label>
-  <label> <input name="r11[]" type="checkbox" value="娜可露露">娜可露露</label>
-  <label> <input name="r11[]" type="checkbox" value="橘右京">橘右京</label>
-  <label> <input name="r11[]" type="checkbox" value="不知火舞">不知火舞 </label> 
+  <input name="r11[]" type="checkbox" value="韩信">韩信
+  <input name="r11[]" type="checkbox" value="娜可露露">娜可露露
+  <input name="r11[]" type="checkbox" value="橘右京">橘右京
+  <input name="r11[]" type="checkbox" value="不知火舞">不知火舞
   <h3><img src="images/comment1.png" title="comment" />荣耀水晶详细</h3>
   <label> <input name="r12[]" type="checkbox" value="活力突击">活力突击</label>
   <label> <input name="r12[]" type="checkbox" value="无限飓风号">无限飓风号</label>
@@ -179,19 +192,7 @@
   ?>
   </dd>
   
-<input type="submit" value="提交">
-</form>
-<script>
-    function Copy() {
-        // 获取Dom节点
-       var copy = document.getElementById('copy');
-        //  用select函数将文本内容选中
-        copy.select();
-        document.execCommand('Copy');
-        alert('复制成功')
 
-    }        
-</script>
 					<script type="text/javascript" src="js/jquery.lightbox.js"></script>
 					   <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
 						  <script type="text/javascript">
