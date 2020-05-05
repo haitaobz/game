@@ -43,7 +43,7 @@
 			<div class="single-page">
 				<div class="blog-content1">
 					<div class="b-content-header">
-						<h3><a href="#">Duis aute irure dolor in reprehenderit</a></h3>
+						<h3><a href="#">录入信息后点击提交</a></h3>
 						<ul>
 			    			<li><a href="#"><img src="images/cal.png" alt="">February 21, 2013</a></li>
 			    			<li><a href="#"><img src="images/admin.png" alt="">Admin</a></li>
@@ -51,7 +51,6 @@
 			    		</ul>
 		    		</div>
 		    		<div class="b-content-main">
-		    			<a href="#"><img src="images/art.jpg" alt="" /></a>
 		    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,Sed ut perspiciatis unde omnis iste natus error sit voluptatem.<a href="#">...</a></p>
 		    			<script type="text/javascript" src="js/jquery.lightbox.js"></script>
 					   <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
