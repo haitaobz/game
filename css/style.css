@@ -154,14 +154,13 @@ input#q {
 	border: 1px solid rgb(223, 223, 223);
 	font-size: 13px;
 	color: #666;
-	width:200px;
+	width:100%;
 	outline: none;
     -webkit-appearance: none;
 }
 input {
 	font-family: arial, sans-serif;
 	outline: none;
-	width:200px;
 }
 #w3-search-form #w3-search {
 	display: none;
