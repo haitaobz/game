@@ -52,7 +52,41 @@
 		    		</div>
 		    		<div class="b-content-main">
 		    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,Sed ut perspiciatis unde omnis iste natus error sit voluptatem.<a href="#">...</a></p>
-		    			<script type="text/javascript" src="js/jquery.lightbox.js"></script>
+		    			<textarea name="copy" id="copy" cols="30" rows="10">
+区服系统选项:<?php echo $_POST["r1"];?>
+  
+账号性别:<?php echo $_POST["r2"]; ?>
+  
+贵族等级:<?php echo $_POST["r3"]; ?>
+
+具体大区:<?php echo $_POST["r4"]; ?>
+
+英雄数量:<?php echo $_POST["r5"]; ?>
+
+皮肤数量:<?php echo $_POST["r6"]; ?>
+
+五级铭文数量:<?php echo $_POST["r7"]; ?>
+
+成就等级:<?php echo $_POST["r8"]; ?>
+
+王者印记:<?php echo $_POST["r9"]; ?>
+
+当前段位:<?php echo $_POST["r10"]; ?>
+
+限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+荣耀水晶详细:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+限定皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+史诗皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+传说皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+</textarea>
+					<script type="text/javascript" src="js/jquery.lightbox.js"></script>
 					   <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
 						  <script type="text/javascript">
 						    $(function() {
