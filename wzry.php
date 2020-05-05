@@ -86,8 +86,7 @@
 内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
-<input type="submit" value="提交">
-</form>
+
 <script>
     function Copy() {
         // 获取Dom节点
@@ -191,7 +190,8 @@
   }
   ?>
   </dd>
-  
+  <input type="submit" value="提交">
+</form>
 
 					<script type="text/javascript" src="js/jquery.lightbox.js"></script>
 					   <link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
